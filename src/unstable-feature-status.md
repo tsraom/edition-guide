@@ -37,7 +37,7 @@
 | [Lifetime elision in `impl`s] | Unstable; [tracking issue][issue#44524] | 2015 |
 | Non-lexical lifetimes | [Implemented but not ready for preview][nll_status] | 2015 |
 | [`T: 'a` inference in `struct`s] | Unstable; [tracking issue][issue#44493] | 2015 |
-| [Raw identifiers] | Unstable; [tracking issue][issue#48589] | ? |
+| [Raw identifiers] | Shipping, 1.30; [tracking issue][issue#48589] | 2015 |
 | [Import macros via `use`] | Unstable; [tracking issue][issue#35896] | ? |
 | [Module system path changes] | Unstable; [tracking issue][issue#44660] | 2018 |
 
@@ -72,12 +72,11 @@ will be discussed in subsequent sections of this guide book. The features marked
 
 ## Documentation
 
-[Edition Guide]: https://rust-lang-nursery.github.io/edition-guide/
 [TRPL]: https://github.com/rust-lang/book/
 
 | **Tool** | **Status** |
 | ----------- | ---------- |
-| [Edition Guide] | Initial draft complete |
+| Edition Guide | Initial draft complete |
 | [TRPL] | Updated as features stabilize |
 
 ## Web site
